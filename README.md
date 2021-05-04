@@ -1,4 +1,4 @@
-# BoletimNotasEscolares
+# Relatório de notas de alunos
 Projeto Web que realiza uma carga de banco de dados com alunos e notas e permite baixar um relatório das mesmas, contendo a média de cada aluno, inclusive.
 Este projeto foi escrito utilizando: C#, Asp.Net Core MVC, Html, Bootstrap, Css, Javascript, jQuery e Transact Sql (banco de dados Sql Server)
 
