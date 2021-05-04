@@ -2,8 +2,8 @@
 Projeto Web que realiza uma carga de banco de dados com alunos e notas e permite baixar um relatório das mesmas, contendo a média de cada aluno, inclusive.
 Este projeto foi escrito utilizando: C#, Asp.Net Core MVC, Html, Bootstrap, Css, Javascript, jQuery e Transact Sql (banco de dados Sql Server)
 
-Para rodar o projeto localmente, os requisitos mínimos são:
--Ter instalado o SDK do .Net Core versão 3.1
+Para rodar o projeto localmente, os requisitos mínimos são:<br />
+-Ter instalado o SDK do .Net Core versão 3.1<br />
 -Ter um banco de dados Sql Server rodando na máquina, podendo inclusive ser a versão Express
 
 Com os requisitos de instalação atendidos:
