@@ -1,0 +1,23 @@
+https://www.c-sharpcorner.com/article/tripledes-encryption-in-c-sharp/
+https://stackoverflow.com/questions/30632739/request-isauthenticated-function-in-asp-net-5
+https://stackoverflow.com/questions/33924655/position-last-flex-item-at-the-end-of-container
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/cookie?view=aspnetcore-5.0
+https://stackoverflow.com/questions/31468836/use-rand-in-user-defined-function
+https://www.devmedia.com.br/pivot-no-sql-server-invertendo-linhas-e-colunas-em-um-exemplo-real/28318
+https://github.com/bchavez/Bogus
+https://stackoverflow.com/questions/974079/setting-mime-type-for-excel-document
+https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-5.0
+https://andrewlock.net/an-introduction-to-the-data-protection-system-in-asp-net-core/
+https://damienbod.com/2020/08/19/symmetric-and-asymmetric-encryption-in-net-core/
+https://stackoverflow.com/questions/33890085/how-to-drop-a-database-when-its-currently-in-use
+https://medium.com/swlh/how-to-distribute-data-protection-keys-with-an-asp-net-core-web-app-8b2b5d52851b
+http://gregfranko.com/jquery-best-practices/#/
+
+(First run)
+To create the database
+dotnet run -- --CREATEDB=true --MASTERDBCONNSTR="Server=.;Initial catalog=master;Integrated security=SSPI" --ADMINUSERNAME="candidato-evolucional" --ADMINPASSWORD="123456"
+
+Next, to spin up the application
+dotnet run
+
+Open a web browser, then navigate to https://localhost:5001

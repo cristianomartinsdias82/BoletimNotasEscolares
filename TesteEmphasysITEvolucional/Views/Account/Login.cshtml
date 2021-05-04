@@ -1,0 +1,16 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Autentique-se";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Login" method="post">
+    <div asp-validation-summary="All"></div>
+    <input type="hidden" name="returnUrl" value="@($"{ ViewData["returnUrl"]}" ?? Url.Action("Index","Home"))" />
+    <label asp-for="Username">User name:</label>
+    <input asp-for="Username" /><br />
+    <label asp-for="Password">Password:</label>
+    <input type="password" asp-for="Password" /><br />
+    <input type="submit" value="Login" />
+</form>

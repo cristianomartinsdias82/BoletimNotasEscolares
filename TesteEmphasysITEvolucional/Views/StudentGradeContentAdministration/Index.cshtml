@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <form id="frmLoadDatabase" asp-action="LoadDatabase" method="post">
+        <div asp-validation-summary="All"></div>
+        @if (TempData["DatabaseLoadingSuccessful"] != null && Convert.ToBoolean(TempData["DatabaseLoadingSuccessful"]))
+        {
+        <p>
+            <label>Processo de carga realizado com sucesso!</label>
+        </p>
+        <a class="btn btn-link" id="lnkDownloadReport" href="@Url.Action("DownloadReport")">Baixar grade de notas dos alunos</a>
+        }
+        else
+        {
+        <input class="btn btn-primary" id="btnLoadDatabase" type="submit" value="Realizar carga" />
+        }
+    </form>
+    
+</div>
+
+@section scripts
+{
+    <script src="~/js/views/studentgradecontentadministration/index.js"></script>
+}
