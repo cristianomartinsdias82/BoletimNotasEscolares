@@ -8,8 +8,8 @@ Para rodar o projeto localmente, os requisitos mínimos são:<br />
 
 Com os requisitos de instalação atendidos:
 1. Baixe este repositório para algum drive e diretório de sua preferência
-2. Abra um Prompt de Comando, alcance a pasta raíz da solução e digite as seguintes instruções:
-   dotnet run -- --CREATEDB=true --MASTERDBCONNSTR="Server=.;Initial catalog=master;Integrated security=SSPI" --ADMINUSERNAME="candidato-evolucional" --ADMINPASSWORD="123456" [ENTER]
+2. Abra um Prompt de Comando, alcance a pasta raíz da solução e digite as seguintes instruções:<br />
+   dotnet run -- --CREATEDB=true --MASTERDBCONNSTR="Server=.;Initial catalog=master;Integrated security=SSPI" --ADMINUSERNAME="candidato-evolucional" --ADMINPASSWORD="123456" [ENTER]<br />
    dotnet run [ENTER]
 3. Abra um navegador de Internet de sua preferência e acesse o seguinte endereço:
    https://localhost:5001
